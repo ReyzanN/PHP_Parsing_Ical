@@ -1,6 +1,6 @@
 <?php
 include 'icalGenerator.php';
-$link = 'maison_au_loup_chambre_bromelia.ics';
+$link = '';
 $from = 'Booking.com';
 $ical = new iCalGenerator(array('fileLink' => $link, 'icalFrom' => $from));
 echo '<pre>';
