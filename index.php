@@ -1,7 +1,7 @@
 <?php
 include 'icalGenerator.php';
-$link = '';
-$from = 'Booking.com';
+$link = 'YOUR_ICAL_FILE';
+$from = 'YOUR_ORIGIN';
 $ical = new iCalGenerator(array('fileLink' => $link, 'icalFrom' => $from));
 echo '<pre>';
 $ical->displayEvent();
