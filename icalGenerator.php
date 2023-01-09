@@ -38,6 +38,13 @@ class iCalGenerator{
     }
 
     /**
+     * @return array|mixed
+     */
+    public function getEvent(){
+        return $this->Event;
+    }
+
+    /**
      * @return var_durmp of file
      */
     public function displayFile(){
